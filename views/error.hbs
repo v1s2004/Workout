@@ -1,0 +1,19 @@
+{{! Error Page Template }}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  
+</head>
+<body>
+  <h1>{{message}}</h1>
+  {{!-- Only display error details in development --}}
+  {{#if error.stack}}
+    <pre>{{error.stack}}</pre>
+  {{/if}}
+  <a href="/">Go back to Home</a>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Workout Tracker</title>
+    <link href="/stylesheets/style.css" rel="stylesheet">
+</head>
+<body>
+    {{> header }} <!-- This assumes you have a header partial to include -->
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">About Us</h1>
+        <div class="row">
+            <div class="col-lg-12">
+                <p class="lead">Workout Tracker is dedicated to helping you reach your fitness goals. Our platform allows you to track your workouts, monitor progress, and stay motivated with a supportive community.</p>
+                <p>Since our inception in 2023, we have been committed to providing an intuitive and comprehensive tool for fitness enthusiasts of all levels. Our easy-to-use interface means you can spend more time working out and less time managing your fitness plan.</p>
+                <p>Our Team:</p>
+                <ul>
+                    <li><strong>Jane Doe:</strong> A fitness enthusiast and software developer, Jane founded Workout Tracker to merge her passions for technology and health.</li>
+                    <li><strong>John Smith:</strong> With a background in personal training, John brings expertise in exercise science to the platform, ensuring all our features support effective workout routines.</li>
+                </ul>
+                <p>Thank you for choosing Workout Tracker as your fitness companion. We're excited to be part of your fitness journey!</p>
+                <p>If you have any questions or feedback, please feel free to <a href="/contact">contact us</a>.</p>
+            </div>
+        </div>
+    </div>
+
+    {{> footer }} 
+
+    <script src="/javascripts/jquery-3.6.0.min.js"></script>
+    <script src="/javascripts/popper.min.js"></script>
+    <script src="/javascripts/bootstrap.min.js"></script>
+</body>
+</html>
